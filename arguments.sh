@@ -2,6 +2,9 @@
 
 USER=$1 # the first parameter is the user
 
+# standard input
+# read -p "Entering a user name: " USER
+
 echo "Executing script: $0"
 echo "Archiving user: $1"
 
