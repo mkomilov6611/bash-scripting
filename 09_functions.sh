@@ -1,7 +1,10 @@
 #! /bin/bash
 
 function sayHello() {
-    echo "Hello"
+    # LOCAL var, if you exclude it will become GLOBAL after the function execution :)
+    local GREETING="HELLO" 
+    echo $GREETING
+    
     showCurrentTime
 }
 
