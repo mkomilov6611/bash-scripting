@@ -8,4 +8,5 @@ then
     echo "$HOST is reachable"
 else
     echo "$HOST is not reachable"
+    exit 1
 fi
