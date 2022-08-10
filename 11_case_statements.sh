@@ -14,3 +14,19 @@ case "$1" in
         exit 1
         ;;
 esac
+
+
+# MORE EXAMPLE
+read -p "Enter y or n: " ANSWER
+
+case "$ANSWER" in
+    [yY] | [yY][eE][sS])
+        echo "You answered yes."
+        ;;
+    [nN] | [nN][oO])
+        echo "You said no"
+        ;;
+    *)
+        echo "Invalid answer!"
+        ;;
+esac
