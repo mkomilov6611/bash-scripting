@@ -12,3 +12,7 @@ done
 
 # ?.txt (exactly one character match) -> any file with one char and txt ending
 
+# [abc]*.txt -> any file that starts either with a, b or c and ending txt
+
+# [!0-9]?.txt -> any file that does NOT start with number and exactly one char long, and of course txt ending
+
